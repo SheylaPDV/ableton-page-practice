@@ -6,6 +6,7 @@
   margin-bottom: 3px;
   justify-content: space-between;
 }
+
 img {
   width: 80%;
   height: 50%;
@@ -28,9 +29,10 @@ a {
     -50%
   ); /* Centra el texto exactamente sobre la imagen */
   color: #fd5948;
-  padding: 10px; /* Espacio interno del texto */
+  padding: 2vw; /* Espacio interno del texto relativo al ancho de la ventana */
   border-radius: 5px; /* Bordes redondeados para el fondo del texto */
-  font-size: 70px;
+  font-size: 4vw; /* Tamaño de letra relativo al ancho de la ventana */
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
 }
 .header-items {
   display: flex;
@@ -42,7 +44,11 @@ a {
 .header-items2 {
   display: flex;
 }
-
+@media (max-width: 1337px) {
+  .header-items {
+    display: none; /* Hace que el elemento desaparezca */
+  }
+}
 p {
   padding: 10px;
   margin: 20px;

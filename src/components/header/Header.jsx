@@ -8,7 +8,9 @@ const Header = () => {
         <p>Shop</p>
         <p>Packs</p>
         <p>Help</p>
-        <p>More +</p>
+        <a href='/'>
+          <p>More +</p>
+        </a>
       </div>
       <div className='header-items2'>
         <p>Try Live for free</p>

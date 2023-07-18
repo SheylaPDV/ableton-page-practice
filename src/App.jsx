@@ -7,7 +7,10 @@ function App() {
       <Header />
       <div className='app'>
         <div className='container-img'>
-          <img src='/src/assets/pexels-dsd-1822605.jpg' />
+          <img src='/src/assets/pexels-belle-co-402028.jpg' />
+          <div className='text'>
+            <h1>Ableton</h1>
+          </div>
         </div>
       </div>
     </>

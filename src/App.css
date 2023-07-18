@@ -11,7 +11,27 @@ img {
   height: 50%;
   margin-top: 20px;
 }
+a {
+  text-decoration: none;
+  color: #fd5948;
+}
 
+.container-img {
+  position: relative;
+}
+.text {
+  position: absolute; /* Posiciona el texto en relación con el contenedor */
+  top: 50%; /* Posiciona el texto en la mitad vertical del contenedor */
+  left: 50%; /* Posiciona el texto en la mitad horizontal del contenedor */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Centra el texto exactamente sobre la imagen */
+  color: #fd5948;
+  padding: 10px; /* Espacio interno del texto */
+  border-radius: 5px; /* Bordes redondeados para el fondo del texto */
+  font-size: 70px;
+}
 .header-items {
   display: flex;
   align-items: flex-start;

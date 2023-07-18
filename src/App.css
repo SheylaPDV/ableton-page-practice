@@ -6,6 +6,11 @@
   margin-bottom: 3px;
   justify-content: space-between;
 }
+img {
+  width: 80%;
+  height: 50%;
+  margin-top: 20px;
+}
 
 .header-items {
   display: flex;
@@ -20,11 +25,11 @@
 
 p {
   padding: 10px;
-  margin-left: 30px;
+  margin: 20px;
   font-weight: bold;
 }
 
-.app {
+.app .container-img {
   display: flex;
   background-color: rgb(255, 255, 255);
   justify-content: space-evenly;
